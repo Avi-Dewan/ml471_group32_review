@@ -1,4 +1,4 @@
-#   [ Review of the blog "DisCo: A New Frontier in Complex Scene Image Generation"](https://github.com/Rifatzen/ml471_assignment/blob/main/Blog.md)
+# [Review of the blog "DisCo: A New Frontier in Complex Scene Image Generation"](https://github.com/Rifatzen/ml471_assignment/blob/main/Blog.md)
 
 **Group Id**: 32
 
@@ -11,13 +11,15 @@
 
 **Review of group:** 23
 
-## 
+---
+
+## Description
 
 The blog introduces the core concepts of the paper: [Scene Graph Disentanglement and Composition for Generalizable Complex Image Generation](https://openreview.net/forum?id=zGN0YWy2he). It presents **DisCo**, a novel framework leveraging scene graphs for complex scene image generation. By disentangling spatial layouts and interactive semantics, DisCo addresses limitations in existing SG2I methods, such as poor generalizability and limited diversity. The blog effectively highlights DisCo's practical applications, from graphic design to VR, and its potential to set new benchmarks in generative AI.
 
 ---
 
-## Key Contributions
+## Strengths
 
 ### 1. **Semantics-Layout Variational AutoEncoder (SL-VAE)**
 - Disentangles scene graphs into **spatial layouts** and **interactive semantics**.  
@@ -38,8 +40,29 @@ The blog introduces the core concepts of the paper: [Scene Graph Disentanglement
 - Demonstrates higher **Inception Scores (IS)** and lower **Fréchet Inception Distances (FID)** on benchmarks like COCO-Stuff and Visual Genome.  
 - User studies validate DisCo’s superior rationality and controllability in image generation.
 
+
+### 5. **Real-World Applications** 
+- The blog effectively connects DisCo’s capabilities to industries like VR, gaming, and synthetic data creation, highlighting its versatility.
+
 ---
 
-## Insights and Implications
-DisCo redefines generative AI by disentangling layouts and semantics, enabling greater diversity, precision, and control. This innovation opens pathways for applications in creative industries, VR, and synthetic data generation. Future directions include extending DisCo’s principles to video generation and interactive environments.
 
+
+## Areas for Improvement
+
+1. **Lack of Technical Depth**:  
+   While the blog simplifies DisCo’s features for accessibility, it could have included a deeper dive into the technical innovations, such as the specific workings of SL-VAE or the CMA mechanism. This would have been beneficial for readers with a stronger technical background.
+
+2. **Comparative Analysis**:  
+   The blog briefly mentions how DisCo outperforms existing SG2I methods based on metrics but does not elaborate on specific shortcomings of prior methods or how DisCo addresses them in detail. A comparative analysis would have provided better context for its advancements.
+
+3. **Future Directions**:  
+   Although the blog touches on potential extensions like video generation and interactive environments, it does not delve into the challenges or feasibility of adapting DisCo for these tasks. A discussion on future research directions would have strengthened the blog.
+
+4. **Visuals and Examples**:  
+   The blog could have included more visuals, such as comparisons of generated images or scene graphs before and after DisCo’s application. These would have added a visual dimension to support the claims and improved reader engagement.
+
+---
+
+## Conclusion
+The blog provides an insightful overview of DisCo, clearly explaining its key innovations, practical implications, and superior performance. While it excels in accessibility and relevance, it could benefit from more in-depth technical discussions and comparisons to existing methods. Overall, the blog effectively showcases DisCo as a cutting-edge framework that pushes the boundaries of generative AI, with promising applications in creative industries, VR, and beyond.
